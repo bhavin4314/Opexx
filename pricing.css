@@ -1,0 +1,40 @@
+* {
+    font-family: 'Newsreader', serif;
+}
+
+.package .card-img-top {
+    height: 16rem;
+}
+
+.price {
+    font-size: 40px;
+
+}
+
+.card li {
+    text-align: start;
+}
+
+.card:hover {
+    border: 2px groove #b4b3b3;
+}
+
+.cardpart {
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+}
+
+.user {
+    background-color: rgb(247, 243, 243);
+    height: 100%;
+
+}
+
+.footer {
+    background-color: rgb(241, 234, 234);
+    height: 50%;
+}
+
+.footer li {
+    font-weight: bold;
+}

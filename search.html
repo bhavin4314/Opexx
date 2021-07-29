@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="search.css">
+    <title>Opexx</title>
+</head>
+<body>
+
+<!-- ***********************************Navbar***************************************************** -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand active font-weight-bold" href="">OPEXX</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="search.html">Search <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html">Pricing</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!-- ***********************************Navbar***************************************************** -->
+
+
+<!-- ***********************************form***************************************************** -->
+<!-- <div class="form container">
+    <div class="d-flex justify-content-center">
+        <p class="text-center"><span><a href="#Live_Tenders"data-toggle="collapse" data-target="#Live_Tenders" aria-expanded="false" aria-controls="collapseExample">Live Tenders</a></span></p>
+        <p class="text-center ml-5" ><span><a  href="#Winners" data-toggle="collapse" data-target="#Winners" aria-expanded="false" aria-controls="collapseExample">Winners</a></span></p>
+    </div>
+    
+    <form id="Live_Tenders" >
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-10 col-10">
+            <div class="form-group">
+                <input class="form-control" placeholder="Keyword">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-10 col-10">
+            <div class="form-group">
+                <input class="form-control" placeholder="Location">
+                </div>
+            </div>
+        </div>
+    </form>
+
+  
+       
+    <div id="lessmore" class="collapse">
+        <div class="row" >
+            <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+            <div class="form-group">
+                <input class="form-control" placeholder="Min Value">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+            <div class="form-group">
+                <input class="form-control" placeholder="Max Value">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+            <div class="form-group">
+                <input class="form-control" placeholder="Buyer Name">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+            <div class="form-group">
+                <input class="form-control" placeholder="CPV">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+            <div class="form-group">
+                <input class="form-control" placeholder="Published">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+            <div class="form-group">
+                <input class="form-control" placeholder="Deadline">
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <p class="text-center ml-5" ><span><a  href="#lessmore" data-toggle="collapse" data-target="#lessmore" aria-expanded="false" aria-controls="collapseExample">Show More/Less</a></span></p>
+
+    <div id="Winners" class="collapse">
+        <p>Winner and award information allow you to analyze previously awarded contracts. Start your free 14-day trial now to see which companies have won tenders and which organizations have issued tenders before.</p>
+        <div class="d-flex justify-content-center">
+        <p class="text-center"><span><a  class="btn btn-primary text-white">Start Free Trial</a></span></p>
+        <p class="text-center ml-5" ><span><a class="btn btn-success text-white" >Login</a></span></p>
+        </div>
+    </div>
+   
+</div> -->
+<!-- ***********************************form***************************************************** -->
+
+
+<!-- ***********************************form***************************************************** -->
+<div class="formpg py-4">
+    <ul class="nav nav-pills mb-3 container justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item ">
+        <a class="nav-link active  " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Live Tenders</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link " id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Winners</a>
+        </li>
+
+    </ul>
+    <div class="tab-content container justify-content-center" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <form  class="" id="Live_Tenders" >
+                <div class="row justify-content-around">
+                    <div class="col-lg-8 col-md-8 col-sm-10 col-10">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Keyword">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Location">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div id="lessmore" class="collapse">
+                <div class="row justify-content-around"  >
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Min Value">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Max Value">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Buyer Name">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="CPV">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Published">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Deadline">
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <p class="text-center ml-5" ><span><a  href="#lessmore" data-toggle="collapse" data-target="#lessmore" aria-expanded="false" aria-controls="collapseExample">Show More/Less</a></span></p>
+        
+        </div>
+        
+
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div id="Winners" >
+                <p>Winner and award information allow you to analyze previously awarded contracts. Start your free 14-day trial now to see which companies have won tenders and which organizations have issued tenders before.</p>
+                <div class="d-flex justify-content-center">
+                <p class="text-center"><span><a  class="btn btn-success text-white">Start Free Trial</a></span></p>
+                <p class="text-center ml-5" ><span><a class="btn btn-success text-white" >Login</a></span></p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- ***********************************form***************************************************** -->
+
+
+<!-- ***********************************footer***************************************************** -->
+<div class="footer">
+    <div class="container text-center py-4">
+        <h1>9,000,000 tenders at your fingertips.</h1>
+        <p> Start free trial for 14 days. No credit card needed.</p>
+        <button class="btn btn-warning">Start Free Trial</button>
+    </div>
+</div>
+
+<!-- ***********************************footer***************************************************** -->
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
